@@ -8,7 +8,7 @@ import { Product } from "@/types";
 import useCart from "@/hooks/use-cart";
 
 interface InfoProps {
-  data: Product
+  data: Product;
 };
 
 const Info: React.FC<InfoProps> = ({ data }) => {
